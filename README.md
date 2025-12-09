@@ -10,7 +10,7 @@ Client Workstations: DESKTOP01 & DESKTOP02 (2 VM's joined to the domain)
 
 Virtualization Platform: VirtualBox
 
-Tools Used: RSAT, Group Policy Management Console, PowerShell, CMD, Remote Desktop
+Tools Used: RSAT, Group Policy Management Console, PowerShell, CMD, 
 
 Networking: Internal virtual network simulating a production environment
 
@@ -156,8 +156,6 @@ Verified network connectivity with ping, nslookup, ipconfig
 
 Tested role-based access and restrictions
 
-Screenshots:
-(Add troubleshooting screenshots if available)
 
 ### 6. Imaging & Deployment
 
@@ -172,8 +170,7 @@ Captured full disk image
 
 Restored image to another VM
 
-Screenshots:
-(Insert imaging screenshots later if you do this lab)
+
 
 ## Tools & Technologies
 
@@ -193,7 +190,6 @@ DHCP / DNS (as part of DC setup)
 
 VirtualBox / VMware
 
-Remote Desktop
 
 Imaging Tools (Windows Deployment System)
 
