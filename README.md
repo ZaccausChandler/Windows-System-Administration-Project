@@ -46,12 +46,12 @@ Installed Active Directory Domain Services
 ![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/3b0fe4884ea3eb79e7e40a0ba7e25d2df3bafc0c/Active%20Directory/Media/ADUC.png)
 
 Created domain: zccorp.local
-![image alt]()
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/03bb642e6eea1c7aae2fe99896a65a686c7db35e/Networking/Media/ZCCORP%20DOMAIN.png)
 
-Set up OUs for HR, IT, and Workstations
-![image alt]()
+Set up OUs for HR, IT, and Security
 
-Verified DNS health and domain functionality
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/3d0de4c7392b1becb68fbdcad3ff3c13597a9693/Active%20Directory/Media/AD%20GROUPS.png)
+
 
 Connected two client VMs to the domain using System Properties
 ![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/2e8a342d396490ffc0ae25b464bbcedfcda6cebe/Active%20Directory/Media/DOMAIN%20COMPUTERS.png)
@@ -65,13 +65,13 @@ Key Tasks:
 
 Created users (e.g. Helpdesk)
 
-Assigned roles with least privilege in mind
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/03bb642e6eea1c7aae2fe99896a65a686c7db35e/Active%20Directory/Media/USER%20ACCOUNT%20PROFILE.png)
+
+Assigned roles and memberships
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/03bb642e6eea1c7aae2fe99896a65a686c7db35e/Active%20Directory/Media/AD%20Memberships.png)
 
 Managed password resets, account unlocks, and AD attributes
-
-Organized computers into correct OUs
-
-![image alt]()
 
 
 ### 3. Group Policy Administration
@@ -83,22 +83,43 @@ GPO Examples Implemented:
 
 Disable Task Manager
 
-Disable Log Off option
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/Disable%20Task%20Manager.png)
+
+Disable Change Password option
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/Disable%20Password.png)
 
 Password complexity & lockout settings
 
-Drive mapping (if you add this later)
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/GP%20SETTINGS.png)
+
+Drive mapping 
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Drive%20Mapping/Media/DRIVE%20LOCATIONS.png)
+
+Drive Map Locations(CMD)
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Drive%20Mapping/Media/MAPPED%20DRIVES%20CMD.png)
 
 Verification Methods:
 
-gpresult /r on Desktop02
+gpresult /r on Desktop02(Amanda)
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/GP%20RESULT%20TASK.png)
 
 Group Policy Results Wizard
 
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/POLICY%20ENFORCED.png)
+
 Force updates with gpupdate /force
 
-Screenshots:
-(Insert GPMC or gpresult screenshots)
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/f0e2485e4c152c101447c2f819768878cd4ee53d/Group%20Policy/Media/GP%20CMD%20PROMPT.png)
+
+Task Manager Disabled on Desktop02(Amanda)
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/9143d3202fedbeb7a540a9915f6916ab08e4999c/Group%20Policy/DESK2%20TASK%20FAIL.png)
+
+![image alt](https://github.com/ZaccausChandler/IT-Labs-Portfolio-VM/blob/9143d3202fedbeb7a540a9915f6916ab08e4999c/Group%20Policy/Media/DSKTP2%20TASK%20REMOVAL.png)
 
 ## 4. RSAT Tools & Remote Administration
 
@@ -107,7 +128,9 @@ Used RSAT from a client PC to manage AD, GPO, Users, and Computers remotely — 
 
 Key Tasks:
 
-Installed RSAT on a Windows 10/11 client
+Installed RSAT on a Windows 10/11 client using server manager
+
+![image alt]()
 
 Managed users and GPOs without logging into the server
 
