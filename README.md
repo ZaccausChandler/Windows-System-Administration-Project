@@ -154,11 +154,18 @@ Examples:
 
 RPC server unavailable issue during GPO Results (troubleshooting DNS / services)
 
-Joined and rejoined workstations to the domain
+Joined workstations to the domain
 
-Verified network connectivity with ping, nslookup, ipconfig
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c1cfbb32e9e0860b6172506d3e9dee344948b6b2/Networking/Media/DC%20IPv4%20CONFIG.png)
 
-Tested role-based access and restrictions
+Verified network connectivity with ping, ipconfig
+
+Ping client Domain Server
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c1cfbb32e9e0860b6172506d3e9dee344948b6b2/Networking/Media/CLIENT%20PING%20DC.png)
+
+Reset user "Amanda" account password using DESKTOP01(Helpdesk)
+
+![image alt]()
 
 
 ### 6. Imaging & Deployment
