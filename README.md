@@ -126,11 +126,11 @@ Task Manager Disabled on Desktop02(Amanda)
 ## 4. RSAT Tools & Remote Administration
 
 Description:
-Used RSAT from DESKTOP01(Helpdesk user) to manage AD, GPO, Users, and Computers remotely — simulating a help desk technician managing domain resources.
+Used Windows Administrative Tools from DESKTOP01(Helpdesk user) to manage AD, GPO, Users, and Computers remotely — simulating a help desk technician managing domain resources.
 
 Key Tasks:
 
-Installed RSAT on a Windows 10/11 client (DESKTOP01) using server manager
+Installed RSAT tools on a Windows 10/11 client (DESKTOP01) using server manager
 
 ![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/5b8e70d37e2034a2c32f54fe03c08ae1ad4000a9/Networking/Media/RSAT%20TOOLS.png)
 
