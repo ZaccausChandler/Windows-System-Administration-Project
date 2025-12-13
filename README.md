@@ -34,7 +34,7 @@ Basic help desk workflows and ticket-style problem solving
 
 Permissions, security, and role-based access
 
-Windows Deployment Services(Imaging)
+Windows Deployment Services (Imaging)
 
 ##  Projects & Labs
 ### 1. Domain Controller Build & AD Configuration
