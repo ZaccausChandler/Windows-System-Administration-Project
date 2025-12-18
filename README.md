@@ -141,7 +141,11 @@ Managed users and GPOs without logging into the server
 
 Performed remote desktop connections to the server
 
-![image alt]()
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/RDP%20connection.png)
+
+Fully Established RDP to DESKTOP02
+
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/RDP%20confirmation.png)
 
 Tested permissions and policy application from the client side
 
@@ -156,6 +160,12 @@ Examples:
 
 RPC server unavailable issue during GPO Results (troubleshooting DNS / services)
 
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/RPC%20server%20issue.png)
+
+Solution: Temporarily disabled firewalls
+
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/firewall%20cmd.png)
+
 Joined workstations to the domain
 
 ![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c1cfbb32e9e0860b6172506d3e9dee344948b6b2/Networking/Media/DC%20IPv4%20CONFIG.png)
@@ -165,10 +175,11 @@ Verified network connectivity with ping, ipconfig
 Ping client Domain Server
 ![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c1cfbb32e9e0860b6172506d3e9dee344948b6b2/Networking/Media/CLIENT%20PING%20DC.png)
 
-Reset user "Amanda" account password using DESKTOP01(Helpdesk)
+User "Amanda" account was disabled.
+Solution: Enabled account through AD 
 
-![image alt]()
-
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/Disabled%20Account.png)
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/c696b42ea24f1a394c1b9807849432db4aaddbad/Networking/Media/Enabled%20Account.png)
 
 ### 6. Imaging & Deployment
 
@@ -177,13 +188,21 @@ Created a system image using WDS to simulate enterprise workstation deployment.
 
 Tasks Performed:
 
-Booted into imaging tool
+Booted into imaging tool, created deployment share through WDS.
+
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/fcb73e414920c972120131d4797c96e4c57f77f2/Networking/Media/deployment%20share.png)
 
 Captured full disk image
 
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/fcb73e414920c972120131d4797c96e4c57f77f2/Networking/Media/INSTALL%20IMAGES.png)
+
+Configured image thorugh Deployment Toolkit 
+
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/fcb73e414920c972120131d4797c96e4c57f77f2/Networking/Media/image%20wizard.png)
+
 Restored image to another VM
 
-
+![image alt](https://github.com/ZaccausChandler/Windows-System-Administration-Project/blob/fcb73e414920c972120131d4797c96e4c57f77f2/Networking/Media/imaged%20about.png)
 
 ## Tools & Technologies
 
