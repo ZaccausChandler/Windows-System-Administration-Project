@@ -10,7 +10,7 @@ Client Workstations: DESKTOP01 & DESKTOP02 (2 VM's joined to the domain)
 
 Virtualization Platform: VirtualBox
 
-Tools Used: RSAT, Group Policy Management Console, PowerShell, CMD, 
+Tools Used: RSAT, Group Policy Management Console, PowerShell, CMD, WDS, ADK+MDT, Remote Desktop Protocol
 
 Networking: Internal virtual network simulating a production environment
 
